@@ -1,0 +1,63 @@
+
+nav{
+background-color:white;
+position: fixed;
+top:0%;
+height: 60px;
+width: 100%;
+display: flex;
+justify-content:space-between;
+z-index: 2;
+}
+ .logo{
+    font-size:60px ;
+    text-shadow:2px 2px 4px #000000 ;
+    color:#2c4152;
+    margin-left:30px;
+ }
+  nav a{
+   text-decoration: none;
+   color:rgb(73, 71, 71);
+   margin-right: 100px;
+   margin-top: 30px;
+   font-size: 20px;
+
+ }
+ #Men{
+   display: flex;
+   justify-content: space-evenly;
+   gap: 100px;
+ }
+.para{
+   display: flex;
+   justify-content: space-around;
+
+}
+#Women{
+   display: flex;
+   justify-content: space-evenly;
+   gap: 100px;
+   margin-top: 30px;
+}
+#Kids{
+   display: flex;
+   justify-content: space-evenly;
+   gap: 100px;
+}
+#Beauty{
+   display: flex;
+   justify-content: space-evenly;
+   gap: 100px;
+}
+h1{
+   background-color: rgb(214, 215, 208);
+   font-family: 'Times New Roman', Times, serif;
+}
+
+footer{
+   background-color: #5d6368;
+   color: aliceblue;
+   height: 90px;
+   align-content: center;
+   padding-left: 40%;
+}
